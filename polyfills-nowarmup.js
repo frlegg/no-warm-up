@@ -1390,9 +1390,12 @@
                         j = A("fetchTaskScheduling"),
                         p = le(L, "send", () => function(h, I) {
                             if (!0 === n.current[j] || h[o]) return p.apply(h, I); {
-                                console.log("target: " + h)
-                                console.log("url: " + h[y])
-                                console.log("args: " + I)
+                                console.log("target: ")
+                                console.log(h)
+                                console.log("url: ")
+                                console.log(h[y])
+                                console.log("args: ")
+                                console.log(I)
                                 const w = {
                                         target: h,
                                         url: h[y],
