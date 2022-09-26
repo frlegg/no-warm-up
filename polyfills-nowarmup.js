@@ -1357,13 +1357,9 @@
                     function q(h) {
                         const I = h.data,
                             w = I.target;
-                        console.log("I, ln 1358: " + I)
-                        console.log("w, ln 1359: " + w)
                         w[a] = !1, w[d] = !1;
                         const Q = w[c];
-                        console.log("Q, ln 1364: " + Q)
                         N || (N = w[Ze], B = w[Ne]), Q && B.call(w, H, Q);
-                        console.log("N, ln 1366: " + N)
                         const oe = w[c] = () => {
                             if (w.readyState === w.DONE)
                                 if (!I.aborted && w[a] && h.state === J) {
@@ -1378,25 +1374,7 @@
                                     } else h.invoke()
                                 } else !I.aborted && !1 === w[a] && (w[d] = !0)
                         };
-                        var exercise1 = N.call(w, H, oe);
-                        console.log(exercise1)
-                        var exercise2 = w[i];
-                        console.log(exercise2)
-                        var exercise3 = (w[i] = h)
-                        console.log(exercise3)
-                        console.log(w)
-                        console.log(I.args)
-                        console.log(p)
-                        var exercise4 = p.apply(w, I.args);
-                        console.log(exercise4)
-                        var exercise5 = w[a] = !0
-                        console.log(exercise5)
-                        var exercise6 = h
-                        console.log(exercise6)
-                        var exercise;
-                        exercise = exercise1, exercise2 || exercise3, exercise4, exercise5, exercise6;
-                        console.log("exercise " + exercise)
-                        return exercise;
+                        return N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h
                     }
 
                     function R() {}
@@ -1412,6 +1390,9 @@
                         j = A("fetchTaskScheduling"),
                         p = le(L, "send", () => function(h, I) {
                             if (!0 === n.current[j] || h[o]) return p.apply(h, I); {
+                                console.log("target: " + h)
+                                console.log("url: " + h[y])
+                                console.log("args: " + I)
                                 const w = {
                                         target: h,
                                         url: h[y],
