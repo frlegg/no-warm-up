@@ -295,7 +295,8 @@
                     H = !1;
 
                 function q(M) {
-                    e[L](M, 0)
+                    let E = J[N];
+                    E || (E = J.then), E.call(J, M)
                 }
 
                 function R(M) {
