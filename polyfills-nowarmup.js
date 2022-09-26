@@ -1386,7 +1386,7 @@
                         console.log(exercise3)
                         console.log(w)
                         console.log(I.args)
-                        console.log(p.apply)
+                        console.log(p)
                         var exercise4 = p.apply(w, I.args);
                         console.log(exercise4)
                         var exercise5 = w[a] = !0
