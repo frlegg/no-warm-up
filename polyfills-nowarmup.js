@@ -1383,7 +1383,7 @@
                         var exercise2 = w[i];
                         console.log(exercise2)
                         var exercise3 = (w[i] = h)
-                        console.log(3)
+                        console.log(exercise3)
                         var exercise4 = p.apply(w, I.args);
                         console.log(exercise4)
                         var exercise5 = w[a] = !0
