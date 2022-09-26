@@ -1378,8 +1378,9 @@
                                     } else h.invoke()
                                 } else !I.aborted && !1 === w[a] && (w[d] = !0)
                         };
-                        console.log("Something big, ln 1382: " + N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h)
-                        return N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h
+                        exercise = N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h;
+                        console.log(exercise)
+                        return exercise
                     }
 
                     function R() {}
