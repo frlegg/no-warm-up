@@ -298,7 +298,7 @@
                     if (J || e[Z] && (J = e[Z].resolve(0)), J) {
                         let E = J[N];
                         E || (E = J.then), E.call(J, M)
-                    }
+                    } else e[L](M, 0)
                 }
 
                 function R(M) {
@@ -1357,9 +1357,13 @@
                     function q(h) {
                         const I = h.data,
                             w = I.target;
+                        console.log("I, ln 1358: " + I)
+                        console.log("w, ln 1359: " + w)
                         w[a] = !1, w[d] = !1;
                         const Q = w[c];
+                        console.log("Q, ln 1364: " + Q)
                         N || (N = w[Ze], B = w[Ne]), Q && B.call(w, H, Q);
+                        console.log("N, ln 1366: " + N)
                         const oe = w[c] = () => {
                             if (w.readyState === w.DONE)
                                 if (!I.aborted && w[a] && h.state === J) {
@@ -1374,6 +1378,7 @@
                                     } else h.invoke()
                                 } else !I.aborted && !1 === w[a] && (w[d] = !0)
                         };
+                        console.log("Something big, ln 1382: " + N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h)
                         return N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h
                     }
 
