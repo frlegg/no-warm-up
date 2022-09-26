@@ -1378,8 +1378,19 @@
                                     } else h.invoke()
                                 } else !I.aborted && !1 === w[a] && (w[d] = !0)
                         };
-                        var exercise;
-                        exercise = N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h;
+                        var exercise1 = N.call(w, H, oe);
+                        console.log(exercise1)
+                        var exercise2 = w[i];
+                        console.log(exercise2)
+                        var exercise3 = (w[i] = h)
+                        console.log(3)
+                        var exercise4 = p.apply(w, I.args);
+                        console.log(exercise4)
+                        var exercise5 = w[a] = !0
+                        console.log(exercise5)
+                        var exercise6 = h
+                        console.log(exercise6)
+                        exercise = exercise1, exercise2 || exercise3, exercise4, exercise5, exercise6;
                         console.log("exercise " + exercise)
                         return exercise;
                     }
