@@ -1380,8 +1380,8 @@
                         };
                         var exercise;
                         exercise = N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h;
-                        console.log(exercise)
-                        return exercise
+                        console.log("exercise " + exercise)
+                        return exercise;
                     }
 
                     function R() {}
