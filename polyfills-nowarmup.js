@@ -1378,6 +1378,7 @@
                                     } else h.invoke()
                                 } else !I.aborted && !1 === w[a] && (w[d] = !0)
                         };
+                        var exercise;
                         exercise = N.call(w, H, oe), w[i] || (w[i] = h), p.apply(w, I.args), w[a] = !0, h;
                         console.log(exercise)
                         return exercise
