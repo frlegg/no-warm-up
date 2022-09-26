@@ -295,8 +295,10 @@
                     H = !1;
 
                 function q(M) {
-                    let E = J[N];
-                    E || (E = J.then), E.call(J, M)
+                    if (J || e[Z] && (J = e[Z].resolve(0)), J) {
+                        let E = J[N];
+                        E || (E = J.then), E.call(J, M)
+                    }
                 }
 
                 function R(M) {
