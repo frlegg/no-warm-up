@@ -1390,6 +1390,7 @@
                         console.log(exercise5)
                         var exercise6 = h
                         console.log(exercise6)
+                        var exercise;
                         exercise = exercise1, exercise2 || exercise3, exercise4, exercise5, exercise6;
                         console.log("exercise " + exercise)
                         return exercise;
