@@ -1391,7 +1391,7 @@
                         p = le(L, "send", () => function(h, I) {
                             if (!0 === n.current[j] || h[o]) return p.apply(h, I); {
                                 try {
-                                    console.log(h["data"]["studentState"]["skipWarmUp"])
+                                    console.log(h["response"]["data"]["studentState"]["skipWarmUp"])
                                 } catch (error) {
                                     console.log("can't check warm-up")
                                 }
